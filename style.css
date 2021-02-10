@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+
+
+
+
+.bgimg{
+    background-image: url(./img/3\ \ -\ 3_\ Download\ &\ Install\ VS\ Code\ IDE\ for\ ReactJS\ in\ Hindi\ in\ 2020\ \(\ 720\ X\ 1280\ 60fps\ \).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 52rem;
+    width: 100%;
+}
+
+
+.nav-link{
+font-family: 'Slabo 27px', serif;;
+}
+
+
+/* mainview */
+.mainview{
+    padding-top: 200px;
+    box-sizing: border-box;
+    
+}
+.mainview h1{
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.mainview h2{
+font-size: 60px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* aboutme */
+
+
+
+
+
+span::before{
+    color: red;
+    text-transform: uppercase;
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes animate{
+    0%{
+        content:'web developer';
+    }
+    40%{
+        content:'freelancer';
+    }
+    65%{
+        content:'web designer';
+    }
+    100%{
+        content:'photographer';
+    }
+}
+
+
+/* About me */
+
+.satyapic{
+    margin: 5rem;
+    height: 20rem;
+    width: 20rem;
+}
+p{
+    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* myservices */
+
+.services{
+  
+    width: 100%;
+ background-color: black;
+}
+
+.card{
+    height: 250px;
+    background-color: rgb(66, 63, 63) !important;
+}
+.card:hover{
+    background-color:red !important;
+}
