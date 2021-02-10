@@ -43,7 +43,8 @@ font-family: 'Ubuntu', sans-serif;
 
 
 
-span::before{
+.animation::before{
+    font-size: 50px;
     color: red;
     text-transform: uppercase;
     content: '';
@@ -91,4 +92,19 @@ p{
 }
 .card:hover{
     background-color:red !important;
+}
+
+.name{
+    font-size: 80px;
+}
+@media only screen and (max-width:600px){
+    .name{
+        font-size: 40px;
+    }
+    .satyapic{
+        margin: 0;
+    }
+    .animation::before{
+        font-size: 35px;
+    }
 }
